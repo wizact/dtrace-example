@@ -1,0 +1,57 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/OriginService.Api.csproj",
+    "projectName": "OriginService.Api",
+    "projectPath": "/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/OriginService.Api.csproj",
+    "outputPath": "/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/OriginService.Data.csproj": {
+            "projectPath": "/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/OriginService.Data.csproj"
+          },
+          "/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Model/OriginService.Model.csproj": {
+            "projectPath": "/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Model/OriginService.Model.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.CSharp": {
+          "target": "Package",
+          "version": "[4.6.0, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.2, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

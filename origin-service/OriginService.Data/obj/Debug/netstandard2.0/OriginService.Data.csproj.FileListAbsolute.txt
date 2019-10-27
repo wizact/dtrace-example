@@ -1,0 +1,8 @@
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/bin/Debug/netstandard2.0/OriginService.Data.deps.json
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/bin/Debug/netstandard2.0/OriginService.Data.dll
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/bin/Debug/netstandard2.0/OriginService.Data.pdb
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/obj/Debug/netstandard2.0/OriginService.Data.csprojAssemblyReference.cache
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/obj/Debug/netstandard2.0/OriginService.Data.AssemblyInfoInputs.cache
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/obj/Debug/netstandard2.0/OriginService.Data.AssemblyInfo.cs
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/obj/Debug/netstandard2.0/OriginService.Data.dll
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Data/obj/Debug/netstandard2.0/OriginService.Data.pdb

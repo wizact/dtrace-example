@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OriginService.Data/Repositories/CustomerRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+            <state relative-caret-position="930">
+              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
               <folding>
                 <marker date="1572136565818" expanded="true" signature="6:189" ph="..." />
                 <marker date="1572136565818" expanded="true" signature="233:3137" ph="{...}" />
@@ -179,6 +179,9 @@
       <find>first_co</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/OriginService.Data/Repositories/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OriginService.Data/Entities/Customer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -220,6 +223,7 @@
     <option name="width" value="1440" />
     <option name="height" value="839" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -303,12 +307,12 @@
       <option name="presentableId" value="Default" />
       <updated>1571644177011</updated>
       <workItem from="1571644179967" duration="4618000" />
-      <workItem from="1571708033178" duration="7018000" />
+      <workItem from="1571708033178" duration="7338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11636000" />
+    <option name="totallyTimeSpent" value="11956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +325,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="839" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -545,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OriginService.Data/Repositories/CustomerRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        <state relative-caret-position="930">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding>
             <marker date="1572136565818" expanded="true" signature="6:189" ph="..." />
             <marker date="1572136565818" expanded="true" signature="233:3137" ph="{...}" />

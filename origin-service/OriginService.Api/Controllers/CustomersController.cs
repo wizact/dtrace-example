@@ -1,8 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using OriginService.Data.Repositories.Interfaces;
 using OriginService.Model.Models;
+using zipkin4net;
 using OperationStatus = OriginService.Model.Models.OperationStatus;
 
 namespace OriginService.Api.Controllers {
@@ -23,15 +26,28 @@ namespace OriginService.Api.Controllers {
         [HttpGet ("{id}")]
         public async Task<IActionResult> GetById (int id)
         {
+            var trace = Trace.Current;
+            
+            //trace.Record(Annotations.ServerRecv());
+//            trace.Record(Annotations.ServiceName(nameof(CustomersController)));
+            //trace.Record(Annotations.Rpc("GET"));
+            //trace.Record(Annotations.ServerSend());
+            trace.Record(Annotations.Tag("Actions", "Customers.GetById"));
+            trace.Record(Annotations.Event("GetById.BeforeDB"), DateTime.Now);
+            
             var customerEntity = await _customerRepository
                 .GetCustomerById(id)
                 .ConfigureAwait(false);
 
+            trace.Record(Annotations.Event("GetById.AfterDB"), DateTime.Now);
+            
             if (customerEntity == null)
             {
                 return NotFound(new OperationStatus($"Customer {id} not found"));
             }
 
+            trace.Record(Annotations.Event("GetById.BeforeMapping"), DateTime.Now);
+            
             var customer = new Customer
             {
                 Id = customerEntity.Id,
@@ -39,6 +55,8 @@ namespace OriginService.Api.Controllers {
                 LastName = customerEntity.LastName,
                 Email = customerEntity.Email
             };
+            
+            trace.Record(Annotations.Event("GetById.AfterMapping"), DateTime.Now);
 
             return Ok(customer);
         }

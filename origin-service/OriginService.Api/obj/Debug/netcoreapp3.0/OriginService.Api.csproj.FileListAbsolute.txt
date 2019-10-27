@@ -24,3 +24,7 @@
 /Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/bin/Debug/netcoreapp3.0/OriginService.Model.dll
 /Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/bin/Debug/netcoreapp3.0/OriginService.Data.pdb
 /Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/bin/Debug/netcoreapp3.0/OriginService.Model.pdb
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/bin/Debug/netcoreapp3.0/ThriftNetStandard.dll
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/bin/Debug/netcoreapp3.0/Microsoft.Extensions.PlatformAbstractions.dll
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/bin/Debug/netcoreapp3.0/zipkin4net.dll
+/Users/amirmohtasebi/dev/github.com/wizact/dtrace-example/origin-service/OriginService.Api/bin/Debug/netcoreapp3.0/zipkin4net.middleware.aspnetcore.dll
